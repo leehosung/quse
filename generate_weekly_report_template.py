@@ -11,7 +11,7 @@ WATER_GOAL = 2
 STEPS_GOAL = 10000
 CALORIES_GOAL = 1200
 
-today = date.today()
+today = date.today() - timedelta(1)
 this_week_sunday = today + timedelta((6 - today.weekday()) % 7)
 this_week_sunday = this_week_sunday
 this_week_monday = this_week_sunday + timedelta(-6)

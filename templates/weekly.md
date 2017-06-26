@@ -19,15 +19,15 @@ tags: weekly quantified_self
 
 ### 건강 
 
- * 물먹기: 평균 {average_water}L, 목표달성 {water_success_days}/{count}일
- * 활동량: 평균 {average_steps}걸음, 목표달성 {step_success_days}/{count}일
- * 식이: 평균 {average_calories}Kcal, 목표달성 {calory_success_days}/{count}일
+* 물먹기: 평균 {average_water}L, 목표달성 {water_success_days}/{count}일
+* 활동량: 평균 {average_steps}걸음, 목표달성 {step_success_days}/{count}일
+* 식이: 평균 {average_calories}Kcal, 목표달성 {calory_success_days}/{count}일
 
 ### 그외
 
  * -
 
-### 평가 
+### 뒤돌아 보기
 
 
 ---
