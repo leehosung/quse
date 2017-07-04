@@ -1,4 +1,5 @@
 import csv
+import sys
 from datetime import date
 from datetime import datetime
 from datetime import timedelta
@@ -8,10 +9,10 @@ OUTPUT_DIR = '/Users/tyson/git/leehosung.github.io/_drafts'
 HEALTH_SOURCE_FILE = '/Users/tyson/Downloads/Health Data.csv'
 START_DATE = date(2017, 6, 21)
 WATER_GOAL = 2
-STEPS_GOAL = 10000
-CALORIES_GOAL = 1200
+STEPS_GOAL = 8000
+CALORIES_GOAL = 1500
 
-today = date.today() - timedelta(1)
+today = date.today() - timedelta(int(sys.argv[1]))
 this_week_sunday = today + timedelta((6 - today.weekday()) % 7)
 this_week_sunday = this_week_sunday
 this_week_monday = this_week_sunday + timedelta(-6)
